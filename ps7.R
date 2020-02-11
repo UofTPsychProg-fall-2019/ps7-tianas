@@ -172,7 +172,6 @@ ggplot(data, aes(x = partofspeech, y = fixation_same, colour = object, fill=obje
   theme(plot.title = element_text(face="bold"))
 
 
-
 # 8. Pairwise Comparisons -------------------------------------------------
 
 data.lm <- lm(fixation_same ~ partofspeech * object, data = data)
