@@ -4,7 +4,6 @@
 # "PMO" stands for "previously-mentioned object", which is synonymous with the "same" condition level. This is also
 # what we expect people to look at in all but the NP-new condition (in which they're told to "move the OTHER object")
 
-
 # Data & Libraries --------------------------------------------------------
 
 df <- read.csv("~/Downloads/emdata.csv")
